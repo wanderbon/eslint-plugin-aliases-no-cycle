@@ -3,6 +3,6 @@
   "sourceMaps": "inline",
   "retainLines": true,
   "plugins": [
-    ["module-resolver", { "root": ["./src/"] }]
+    ["module-resolver", { "root": ["./lib/"] }]
   ]
 }
