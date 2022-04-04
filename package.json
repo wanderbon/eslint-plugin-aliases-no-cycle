@@ -1,0 +1,48 @@
+{
+  "name": "eslint-plugin-aliases-no-cycle",
+  "version": "1.0.1",
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^2.23.0 || ^3.3.0 || ^4.29.3 || ^5.10.0",
+    "array.prototype.flatmap": "^1.2.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "=8.0.3 || ^8.2.6",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-preset-airbnb": "^2.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8",
+    "eslint-import-resolver-node": "file:./resolvers/node",
+    "eslint-import-resolver-typescript": "^1.0.2 || ^1.1.1",
+    "eslint-import-resolver-webpack": "file:./resolvers/webpack",
+    "eslint-module-utils": "^2.7.3",
+    "eslint-plugin-eslint-plugin": "^2.3.0",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-json": "^2.1.2",
+    "fs-copy-file-sync": "^1.1.1",
+    "glob": "^7.2.0",
+    "lodash.isarray": "^4.0.0",
+    "typescript": "^2.8.1 || ~3.9.5",
+    "typescript-eslint-parser": "^15 || ^20 || ^22"
+  },
+  "peerDependencies": {
+    "eslint": "^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8"
+  },
+  "dependencies": {
+    "array-includes": "^3.1.4",
+    "array.prototype.flat": "^1.2.5",
+    "debug": "^2.6.9",
+    "doctrine": "^2.1.0",
+    "eslint-import-resolver-node": "^0.3.6",
+    "has": "^1.0.3",
+    "is-core-module": "^2.8.1",
+    "is-glob": "^4.0.3",
+    "minimatch": "^3.1.2",
+    "object.values": "^1.1.5",
+    "resolve": "^1.22.0",
+    "tsconfig-paths": "^3.13.0"
+  }
+}
